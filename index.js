@@ -9,7 +9,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration)
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = "6092800778:AAHQOuA7PlHhsRwXT8FwDqdmos4O7WZ8k9E"
+const token = "6030398806:AAGczlg86HNHpOfdK9rrjuV6CwPnO_s0dGw"
 
 const bot = new TelegramBot(token, { polling: true });
 
