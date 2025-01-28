@@ -4,12 +4,12 @@ const { Configuration, OpenAIApi } = require("openai");
 //require("dotenv").config();
 
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "YOUR OPENAI SECRET API ",
 });
 const openai = new OpenAIApi(configuration)
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = "6030398806:AAGczlg86HNHpOfdK9rrjuV6CwPnO_s0dGw"
+const token = "YOUR TELEGRAM CHATBOT TOKEN"
 
 const bot = new TelegramBot(token, { polling: true });
 
